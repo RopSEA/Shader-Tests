@@ -44,7 +44,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimAmount: 0.716
+    - _RimAmount: 0.56
     - _RimThresh: 0.01
     m_Colors:
     - _Color: {r: 0.0980392, g: 0.83137256, b: 0.110396914, a: 0}
