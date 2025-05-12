@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\Compiled-Standard.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\Compiled-Standard.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\TemporalAA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\TemporalAA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|c:\\users\\remi\\documents\\github\\shader-tests\\shadertest\\assets\\shader\\pixelartfilter.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\pixelartfilter.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Textures\\RTHandleSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Textures\\RTHandleSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Drawing\\MaterialEditor\\ShaderGraphPropertyDrawers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Drawing\\MaterialEditor\\ShaderGraphPropertyDrawers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\shader\\pixelartfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\pixelartfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\shader\\customlight.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\customlight.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +43,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Compiled-Standard.shader",
-              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\Compiled-Standard.shader",
-              "RelativeDocumentMoniker": "Temp\\Compiled-Standard.shader",
-              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\Compiled-Standard.shader",
-              "RelativeToolTip": "Temp\\Compiled-Standard.shader",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-05-09T05:39:44.246Z",
+              "Title": "TemporalAA.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\TemporalAA.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\TemporalAA.cs",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\TemporalAA.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\TemporalAA.cs",
+              "ViewState": "AQIAAIsBAAAAAAAAAAAAAJ8BAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:05:11.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader",
-              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader",
-              "RelativeDocumentMoniker": "Temp\\GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader",
-              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader",
-              "RelativeToolTip": "Temp\\GeneratedFromGraph-CelShade-Light(CustomFunction)-0f9c0bebf809493a82df1588cd23e712.shader",
+              "DocumentIndex": 2,
+              "Title": "GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader",
+              "RelativeDocumentMoniker": "Temp\\GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Temp\\GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader",
+              "RelativeToolTip": "Temp\\GeneratedFromGraph-PixelEffect-Add-01f412f2364f4a8080bd0b7f1a24a9b3.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-05-09T04:53:09.938Z"
+              "WhenOpened": "2025-05-10T18:33:01.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RTHandleSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Textures\\RTHandleSystem.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Textures\\RTHandleSystem.cs",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Textures\\RTHandleSystem.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.core@14.0.11\\Runtime\\Textures\\RTHandleSystem.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAFMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:56:52.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShaderGraphPropertyDrawers.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Drawing\\MaterialEditor\\ShaderGraphPropertyDrawers.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Drawing\\MaterialEditor\\ShaderGraphPropertyDrawers.cs",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Drawing\\MaterialEditor\\ShaderGraphPropertyDrawers.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.shadergraph@14.0.11\\Editor\\Drawing\\MaterialEditor\\ShaderGraphPropertyDrawers.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAAABoBAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:35:06.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PixelArtFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\PixelArtFilter.cs",
+              "RelativeDocumentMoniker": "Assets\\Shader\\PixelArtFilter.cs",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\PixelArtFilter.cs",
+              "RelativeToolTip": "Assets\\Shader\\PixelArtFilter.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:26:27.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PixelArtFilter.shader",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\PixelArtFilter.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\PixelArtFilter.shader",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\PixelArtFilter.shader",
+              "RelativeToolTip": "Assets\\Shader\\PixelArtFilter.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-05-09T20:22:24.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomLight.hlsl",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\CustomLight.hlsl",
+              "RelativeDocumentMoniker": "Assets\\Shader\\CustomLight.hlsl",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\CustomLight.hlsl",
+              "RelativeToolTip": "Assets\\Shader\\CustomLight.hlsl",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-05-09T06:14:12.092Z"
             }
           ]
         }
