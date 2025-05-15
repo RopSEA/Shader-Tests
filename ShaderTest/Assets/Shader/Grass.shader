@@ -14,6 +14,11 @@ Shader "Unlit/Grass"
         Cull Off
         Zwrite On
 
+        Tags {
+            "RenderType" = "Transparent"
+            "Queue" = "Transparent"
+        }
+
         Pass {
             CGPROGRAM
             #pragma vertex vert
@@ -68,13 +73,19 @@ Shader "Unlit/Grass"
             v2f vert (VertexData v, uint instanceID : SV_INSTANCEID) 
             {
                 v2f o;
-            
-                float3 localPosition = RotateAroundYInDegrees(v.vertex, 0).xyz;
 
                 float4 grassPosition = positionBuffer[instanceID].position;
 
                 float idHash = randValue(abs(grassPosition.x * 10000 + grassPosition.y * 100 + grassPosition.z * 0.05f + 2));
                 idHash = randValue(idHash * 100000);
+
+                float4 animationDirection = float4(0.0f, 0.0f, 1.0f, 0.0f);
+                animationDirection = normalize(RotateAroundYInDegrees(animationDirection, idHash * 180.0f));
+
+
+                float3 localPosition = RotateAroundYInDegrees(v.vertex, 90.0f);
+                localPosition.y += 1 * v.uv.y * v.uv.y * v.uv.y;
+                localPosition.xz += 1 * lerp(0.5f, 1.0f, idHash) * (v.uv.y * v.uv.y *1) * animationDirection;
 
                 //float localWindVariance = min(max(0.4f, randValue(instanceID)), 0.75f);
                                    //v.uv = sin((v.uv.x + v.uv.y) + _Time);
