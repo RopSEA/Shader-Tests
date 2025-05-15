@@ -35,21 +35,24 @@ Shader "Unlit/Grass"
             {
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
-                float saturationLevel : TEXCOORD1;
+                float worldPos : TEXCOORD1;
+                float noiseVal : TEXCOORD2;
+                float3 chunkNum : TEXCOORD3;
             };
 
             struct GrassData
             {
                 float4 position;
                 float2 uv;
+                float disp;
             };
 
-            sampler2D _MainTex, _HeightMap;
             sampler2D _WindTex;
             float4 _TopColor, _BotColor, _AmbColor, _TipColor;
-            float4 _MainTex_ST;
             StructuredBuffer<GrassData> positionBuffer;
             float _Rotation, _DisplacementStrength;
+
+            int _ChunkNum;
             
             float4 RotateAroundYInDegrees (float4 vertex, float degrees) 
             {
@@ -94,13 +97,12 @@ Shader "Unlit/Grass"
                 worldPosition.y *= 1.0f + positionBuffer[instanceID].position.w * lerp(0.8f, 1.0f, idHash);
 
                 o.vertex = UnityObjectToClipPos(worldPosition);
-
                // o.vertex.xz *= (sin(silly) + _Time);
                 //localPosition.y *= v.uv.y * (0.5f + grassPosition.w)
-                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                o.saturationLevel = 1.0 - ((positionBuffer[instanceID].position.w - 1.0f) / 1.5f);
-                o.saturationLevel = max(o.saturationLevel, 0.5f);
-                
+                o.uv = v.uv;
+                o.worldPos = worldPosition;
+                o.noiseVal = tex2Dlod(_WindTex, worldUV).r;
+                o.chunkNum = float3(randValue(_ChunkNum * 20 + 1024), randValue(randValue(_ChunkNum) * 10 + 2048), randValue(_ChunkNum * 4 + 4096));
                 return o;
             }
 

@@ -586,15 +586,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Demensions: 100
-  Density: 15
-  displacementStrength: 5
+  Density: 12
+  chunkDensity: 12
+  numChunks: 10
+  displacementStrength: 3
   grassMaterial: {fileID: 2100000, guid: 11e3f261c0bf8f74d8c2032edbf9baed, type: 2}
   grassMesh: {fileID: -462981019419857548, guid: d1289ba0b1ed1f848a60de2132a86896,
     type: 3}
+  grassMeshLOD: {fileID: -462981019419857548, guid: d1289ba0b1ed1f848a60de2132a86896,
+    type: 3}
   heightMap: {fileID: 2800000, guid: 00bd73489e043f7439a5689562a1df40, type: 3}
+  GrassMap: {fileID: 0}
+  lodCutoff: 1000
+  distanceCutoff: 316
   updateGrass: 0
   initializeGrassShader: {fileID: 7200000, guid: b4b963b8c96939b44b0295344f4de223,
     type: 3}
+  GrassfrustumCulling: {fileID: 7200000, guid: d49c79ea4d9b87a4f8056d1db98b860c, type: 3}
 --- !u!1 &1668343351
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,7 +787,7 @@ Transform:
   m_GameObject: {fileID: 2130086417}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -2.741}
+  m_LocalPosition: {x: 0, y: 5.45, z: -2.741}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

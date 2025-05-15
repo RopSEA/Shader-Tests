@@ -70,6 +70,7 @@
     <None Include="Assets\Shader\Grass.shader" />
     <None Include="Assets\Shader\SobelFilter.shader" />
     <None Include="Assets\Resources\Grass.compute" />
+    <None Include="Assets\Resources\GrassFrust.compute" />
     <None Include="Assets\Resources\Simplex.compute" />
     <None Include="Assets\Resources\Random.cginc" />
     <None Include="Assets\Shader\CustomLight.hlsl" />
