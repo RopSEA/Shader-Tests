@@ -60,11 +60,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Shader\PixelArtFilter.cs" />
+    <Compile Include="Assets\BasicFeature.cs" />
+    <Compile Include="Assets\Scripts\Grass.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\BasicFeaturePass.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Shader\PixelArtFilter.shader" />
+    <None Include="Assets\Shader\Grass.shader" />
+    <None Include="Assets\Shader\SobelFilter.shader" />
+    <None Include="Assets\Resources\Grass.compute" />
+    <None Include="Assets\Resources\Simplex.compute" />
+    <None Include="Assets\Resources\Random.cginc" />
     <None Include="Assets\Shader\CustomLight.hlsl" />
   </ItemGroup>
   <ItemGroup>
