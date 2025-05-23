@@ -7,6 +7,8 @@ Shader "Unlit/Water"
     }
     SubShader
     {
+        Cull Off
+        Zwrite On
         Tags { "RenderType"="Opaque" }
         LOD 100
 
@@ -19,6 +21,7 @@ Shader "Unlit/Water"
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            #include "../Resources/Random.cginc"
 
             struct appdata
             {
@@ -41,10 +44,21 @@ Shader "Unlit/Water"
             {
                 v2f o;
 
+                float L, S;
 
-                float waveOne =  1 * sin(1 * (v.vertex.xy) * (1 + _Time) * 1);
+                float amp, waveL, waveSpeed;
+                float4 Direction;
 
 
+                L = 6;
+                S = 100;
+
+                amp = 1;
+                waveL = 2/L;
+                waveSpeed = waveL * S;
+
+
+                float waveOne =  amp * sin(1 * (v.vertex.xy) *  (waveL) +  (_Time) * waveSpeed);
                 v.vertex.y += waveOne;
 
                 o.vertex = UnityObjectToClipPos(v.vertex);
