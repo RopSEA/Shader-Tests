@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\scripts\\grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\resources\\grass.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\grass.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|c:\\users\\remi\\documents\\github\\shader-tests\\shadertest\\assets\\scripts\\grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|c:\\users\\remi\\documents\\github\\shader-tests\\shadertest\\assets\\shader\\grass.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|c:\\users\\remi\\documents\\github\\shader-tests\\shadertest\\assets\\mattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\mattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\shader\\grass.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\grass.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\resources\\grass.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\grass.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\resources\\grassfrust.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\grassfrust.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\shader\\sobelfilter.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\sobelfilter.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|c:\\users\\remi\\documents\\github\\shader-tests\\shadertest\\assets\\resources\\random.cginc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\assets\\resources\\random.cginc||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3443BF3C-EAD6-E465-BADD-506AA56CA658}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\random.cginc||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -30,11 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "matTest.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\matTest.cs",
+              "RelativeDocumentMoniker": "Assets\\matTest.cs",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\matTest.cs",
+              "RelativeToolTip": "Assets\\matTest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:58:54.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GrassFrust.compute",
+              "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Resources\\GrassFrust.compute",
+              "RelativeDocumentMoniker": "Assets\\Resources\\GrassFrust.compute",
+              "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Resources\\GrassFrust.compute",
+              "RelativeToolTip": "Assets\\Resources\\GrassFrust.compute",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAABsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-05-15T05:52:22.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Random.cginc",
               "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Resources\\Random.cginc",
               "RelativeDocumentMoniker": "Assets\\Resources\\Random.cginc",
@@ -42,12 +75,11 @@
               "RelativeToolTip": "Assets\\Resources\\Random.cginc",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-05-14T23:57:28.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T23:57:28.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SobelFilter.shader",
               "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\SobelFilter.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\SobelFilter.shader",
@@ -55,47 +87,45 @@
               "RelativeToolTip": "Assets\\Shader\\SobelFilter.shader",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-05-14T19:47:11.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T19:47:11.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Grass.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Scripts\\Grass.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grass.cs",
               "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Scripts\\Grass.cs",
               "RelativeToolTip": "Assets\\Scripts\\Grass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAFAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAwwHAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T19:29:11.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Grass.compute",
               "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Resources\\Grass.compute",
               "RelativeDocumentMoniker": "Assets\\Resources\\Grass.compute",
               "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Resources\\Grass.compute",
               "RelativeToolTip": "Assets\\Resources\\Grass.compute",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAAAPAAAAAIAAAA",
+              "ViewState": "AQIAANsAAAAAAAAAAAAAAPgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2025-05-14T01:33:26.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Grass.shader",
               "DocumentMoniker": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\Grass.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\Grass.shader",
               "ToolTip": "C:\\Users\\Remi\\Documents\\GitHub\\Shader-Tests\\ShaderTest\\Assets\\Shader\\Grass.shader",
               "RelativeToolTip": "Assets\\Shader\\Grass.shader",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAF0AAABrAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAFcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-05-13T23:42:31.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T23:42:31.538Z"
             }
           ]
         }

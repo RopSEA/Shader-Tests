@@ -110,6 +110,7 @@ public class Grass : MonoBehaviour
         initializeGrassShader.SetInt("_Scale", chunkDensity);
         initializeGrassShader.SetTexture(0, "_HeightMap", heightMap);
         initializeGrassShader.SetFloat("_DisplacementStrength", displacementStrength);
+       // initializeGrassShader.SetVector("_objPos", transform.position);
         //initializeGrassShader.Dispatch(0, Mathf.CeilToInt(Demensions / 8.0f), Mathf.CeilToInt(Demensions / 8.0f), 1);
 
         wind = GenerateText();

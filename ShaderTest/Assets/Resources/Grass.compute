@@ -209,6 +209,7 @@ SamplerState sampler_HeightMap;
 
 int _Dimension, _Scale, _XOffset, _YOffset, _NumChunks, _ChunkDimension;
 float _DisplacementStrength;
+//float2 _objPos;
 
 [numthreads(8, 8, 1)]
 void InitializeGrass(uint3 id : SV_DispatchThreadID)
@@ -245,7 +246,10 @@ void InitializeGrass(uint3 id : SV_DispatchThreadID)
 
         pos.w = lerp(0.3f, 0.8f, noise);
 
-        grass.position = pos;
+        //pos.xz += uv;
+        
+        
+        grass.position =  pos;
         grass.displacement = displacement.r * _DisplacementStrength;
         grass.uv = uv;
 

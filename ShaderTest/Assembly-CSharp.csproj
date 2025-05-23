@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BasicFeature.cs" />
+    <Compile Include="Assets\matTest.cs" />
     <Compile Include="Assets\Scripts\Grass.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\BasicFeaturePass.cs" />
@@ -68,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Grass.shader" />
+    <None Include="Assets\Shader\Water.shader" />
     <None Include="Assets\Shader\SobelFilter.shader" />
     <None Include="Assets\Resources\Grass.compute" />
     <None Include="Assets\Resources\GrassFrust.compute" />
